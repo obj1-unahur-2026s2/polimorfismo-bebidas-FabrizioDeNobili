@@ -49,14 +49,6 @@ object terere {
 
 object cianuro {
   method rendimientoQueOtorga(dosisConsumida, unDeportista) {
-    return if (unDeportista.peso() > 70) unDeportista.peso() * 0.01 + dosisConsumida else 0  //objeto.mensaje() siempre debe tener parentesis
-    /*alternativa
-    if (unDeportista.peso() > 70) {
-      return unDeportista.peso() * 0.01 + dosisConsumida
-    }
-    else {
-      return 0
-    }
-    */
+    return if (unDeportista.peso() > 70) unDeportista.peso() * 0.01 + dosisConsumida else 0
   }
 }
